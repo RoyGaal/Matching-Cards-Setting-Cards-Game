@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A153D0AE1BA9E4C900DCB0C2 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A153D0AD1BA9E4C900DCB0C2 /* CardMatchingGame.m */; };
+		A16455581BD7075D00AEA6D5 /* PlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16455571BD7075D00AEA6D5 /* PlayingCardViewController.m */; };
+		A17150A71BD70F840003C82A /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A17150A61BD70F840003C82A /* SetCard.m */; };
+		A17150AA1BD70FB20003C82A /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = A17150A91BD70FB20003C82A /* SetCardDeck.m */; };
+		A17150AD1BD710E50003C82A /* SetCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17150AC1BD710E50003C82A /* SetCardGameViewController.m */; };
+		A17436961BA951370011D79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17436951BA951370011D79F /* Foundation.framework */; };
+		A17436981BA951370011D79F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17436971BA951370011D79F /* CoreGraphics.framework */; };
+		A174369A1BA951370011D79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17436991BA951370011D79F /* UIKit.framework */; };
+		A17436A01BA951370011D79F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A174369E1BA951370011D79F /* InfoPlist.strings */; };
+		A17436A21BA951370011D79F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A17436A11BA951370011D79F /* main.m */; };
+		A17436A61BA951370011D79F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A17436A51BA951370011D79F /* AppDelegate.m */; };
+		A17436A91BA951370011D79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17436A71BA951370011D79F /* Main.storyboard */; };
+		A17436AC1BA951370011D79F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17436AB1BA951370011D79F /* ViewController.m */; };
+		A17436AE1BA951370011D79F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17436AD1BA951370011D79F /* Images.xcassets */; };
+		A17436B51BA951370011D79F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17436B41BA951370011D79F /* XCTest.framework */; };
+		A17436B61BA951370011D79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17436951BA951370011D79F /* Foundation.framework */; };
+		A17436B71BA951370011D79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17436991BA951370011D79F /* UIKit.framework */; };
+		A17436BF1BA951370011D79F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A17436BD1BA951370011D79F /* InfoPlist.strings */; };
+		A17436C11BA951370011D79F /* FlipCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17436C01BA951370011D79F /* FlipCardsTests.m */; };
+		A17436D21BA952900011D79F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A17436CB1BA952900011D79F /* Card.m */; };
+		A17436D31BA952900011D79F /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = A17436CD1BA952900011D79F /* Deck.m */; };
+		A17436D41BA952900011D79F /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A17436CF1BA952900011D79F /* PlayingCard.m */; };
+		A17436D51BA952900011D79F /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = A17436D11BA952900011D79F /* PlayingCardDeck.m */; };
+		A1D5D7EC1BE1BE4C0099E6FC /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5D7EB1BE1BE4C0099E6FC /* Grid.m */; };
+		A1D5D7EF1BE1CCBA0099E6FC /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5D7EE1BE1CCBA0099E6FC /* PlayingCardView.m */; };
+		A1D5D8101BE1D1410099E6FC /* SetCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5D80F1BE1D1410099E6FC /* SetCardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17436B81BA951370011D79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A174368A1BA951370011D79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17436911BA951370011D79F;
+			remoteInfo = FlipCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A153D0AC1BA9E4C900DCB0C2 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = CardClasses/CardMatchingGame.h; sourceTree = "<group>"; };
+		A153D0AD1BA9E4C900DCB0C2 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = CardClasses/CardMatchingGame.m; sourceTree = "<group>"; };
+		A16455561BD7075D00AEA6D5 /* PlayingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardViewController.h; sourceTree = "<group>"; };
+		A16455571BD7075D00AEA6D5 /* PlayingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardViewController.m; sourceTree = "<group>"; };
+		A17150A51BD70F840003C82A /* SetCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCard.h; path = CardClasses/SetCard.h; sourceTree = "<group>"; };
+		A17150A61BD70F840003C82A /* SetCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCard.m; path = CardClasses/SetCard.m; sourceTree = "<group>"; };
+		A17150A81BD70FB20003C82A /* SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCardDeck.h; path = CardClasses/SetCardDeck.h; sourceTree = "<group>"; };
+		A17150A91BD70FB20003C82A /* SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCardDeck.m; path = CardClasses/SetCardDeck.m; sourceTree = "<group>"; };
+		A17150AB1BD710E50003C82A /* SetCardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardGameViewController.h; sourceTree = "<group>"; };
+		A17150AC1BD710E50003C82A /* SetCardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardGameViewController.m; sourceTree = "<group>"; };
+		A17436921BA951370011D79F /* FlipCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17436951BA951370011D79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A17436971BA951370011D79F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A17436991BA951370011D79F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A174369D1BA951370011D79F /* FlipCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipCards-Info.plist"; sourceTree = "<group>"; };
+		A174369F1BA951370011D79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A17436A11BA951370011D79F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A17436A31BA951370011D79F /* FlipCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipCards-Prefix.pch"; sourceTree = "<group>"; };
+		A17436A41BA951370011D79F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A17436A51BA951370011D79F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A17436A81BA951370011D79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A17436AA1BA951370011D79F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A17436AB1BA951370011D79F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A17436AD1BA951370011D79F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A17436B31BA951370011D79F /* FlipCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17436B41BA951370011D79F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A17436BC1BA951370011D79F /* FlipCardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipCardsTests-Info.plist"; sourceTree = "<group>"; };
+		A17436BE1BA951370011D79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A17436C01BA951370011D79F /* FlipCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipCardsTests.m; sourceTree = "<group>"; };
+		A17436CA1BA952900011D79F /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = CardClasses/Card.h; sourceTree = "<group>"; };
+		A17436CB1BA952900011D79F /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = CardClasses/Card.m; sourceTree = "<group>"; };
+		A17436CC1BA952900011D79F /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = CardClasses/Deck.h; sourceTree = "<group>"; };
+		A17436CD1BA952900011D79F /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = CardClasses/Deck.m; sourceTree = "<group>"; };
+		A17436CE1BA952900011D79F /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = CardClasses/PlayingCard.h; sourceTree = "<group>"; };
+		A17436CF1BA952900011D79F /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = CardClasses/PlayingCard.m; sourceTree = "<group>"; };
+		A17436D01BA952900011D79F /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = CardClasses/PlayingCardDeck.h; sourceTree = "<group>"; };
+		A17436D11BA952900011D79F /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = CardClasses/PlayingCardDeck.m; sourceTree = "<group>"; };
+		A1D5D7EA1BE1BE4C0099E6FC /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = Grid/Grid.h; sourceTree = "<group>"; };
+		A1D5D7EB1BE1BE4C0099E6FC /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Grid.m; path = Grid/Grid.m; sourceTree = "<group>"; };
+		A1D5D7ED1BE1CCBA0099E6FC /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardView.h; path = Grid/PlayingCardView.h; sourceTree = SOURCE_ROOT; };
+		A1D5D7EE1BE1CCBA0099E6FC /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardView.m; path = Grid/PlayingCardView.m; sourceTree = SOURCE_ROOT; };
+		A1D5D80E1BE1D1410099E6FC /* SetCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCardView.h; path = Grid/SetCardView.h; sourceTree = "<group>"; };
+		A1D5D80F1BE1D1410099E6FC /* SetCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCardView.m; path = Grid/SetCardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A174368F1BA951370011D79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17436981BA951370011D79F /* CoreGraphics.framework in Frameworks */,
+				A174369A1BA951370011D79F /* UIKit.framework in Frameworks */,
+				A17436961BA951370011D79F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17436B01BA951370011D79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17436B51BA951370011D79F /* XCTest.framework in Frameworks */,
+				A17436B71BA951370011D79F /* UIKit.framework in Frameworks */,
+				A17436B61BA951370011D79F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17150A31BD70EF50003C82A /* FlipCard Model */ = {
+			isa = PBXGroup;
+			children = (
+				A17436CA1BA952900011D79F /* Card.h */,
+				A17436CB1BA952900011D79F /* Card.m */,
+				A17436CC1BA952900011D79F /* Deck.h */,
+				A17436CD1BA952900011D79F /* Deck.m */,
+				A17436CE1BA952900011D79F /* PlayingCard.h */,
+				A17436CF1BA952900011D79F /* PlayingCard.m */,
+				A17436D01BA952900011D79F /* PlayingCardDeck.h */,
+				A17436D11BA952900011D79F /* PlayingCardDeck.m */,
+				A153D0AC1BA9E4C900DCB0C2 /* CardMatchingGame.h */,
+				A153D0AD1BA9E4C900DCB0C2 /* CardMatchingGame.m */,
+			);
+			name = "FlipCard Model";
+			sourceTree = "<group>";
+		};
+		A17150A41BD70F330003C82A /* SetCard Model */ = {
+			isa = PBXGroup;
+			children = (
+				A17150A51BD70F840003C82A /* SetCard.h */,
+				A17150A61BD70F840003C82A /* SetCard.m */,
+				A17150A81BD70FB20003C82A /* SetCardDeck.h */,
+				A17150A91BD70FB20003C82A /* SetCardDeck.m */,
+			);
+			name = "SetCard Model";
+			sourceTree = "<group>";
+		};
+		A17436891BA951370011D79F = {
+			isa = PBXGroup;
+			children = (
+				A1D5D80E1BE1D1410099E6FC /* SetCardView.h */,
+				A1D5D80F1BE1D1410099E6FC /* SetCardView.m */,
+				A1D5D7EA1BE1BE4C0099E6FC /* Grid.h */,
+				A1D5D7EB1BE1BE4C0099E6FC /* Grid.m */,
+				A1D5D7ED1BE1CCBA0099E6FC /* PlayingCardView.h */,
+				A1D5D7EE1BE1CCBA0099E6FC /* PlayingCardView.m */,
+				A17150A41BD70F330003C82A /* SetCard Model */,
+				A17150A31BD70EF50003C82A /* FlipCard Model */,
+				A174369B1BA951370011D79F /* FlipCards */,
+				A17436BA1BA951370011D79F /* FlipCardsTests */,
+				A17436941BA951370011D79F /* Frameworks */,
+				A17436931BA951370011D79F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17436931BA951370011D79F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17436921BA951370011D79F /* FlipCards.app */,
+				A17436B31BA951370011D79F /* FlipCardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17436941BA951370011D79F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A17436951BA951370011D79F /* Foundation.framework */,
+				A17436971BA951370011D79F /* CoreGraphics.framework */,
+				A17436991BA951370011D79F /* UIKit.framework */,
+				A17436B41BA951370011D79F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A174369B1BA951370011D79F /* FlipCards */ = {
+			isa = PBXGroup;
+			children = (
+				A17436A71BA951370011D79F /* Main.storyboard */,
+				A17436AA1BA951370011D79F /* ViewController.h */,
+				A17436AB1BA951370011D79F /* ViewController.m */,
+				A17436AD1BA951370011D79F /* Images.xcassets */,
+				A16455561BD7075D00AEA6D5 /* PlayingCardViewController.h */,
+				A16455571BD7075D00AEA6D5 /* PlayingCardViewController.m */,
+				A17150AB1BD710E50003C82A /* SetCardGameViewController.h */,
+				A17150AC1BD710E50003C82A /* SetCardGameViewController.m */,
+				A174369C1BA951370011D79F /* Supporting Files */,
+			);
+			path = FlipCards;
+			sourceTree = "<group>";
+		};
+		A174369C1BA951370011D79F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A17436A41BA951370011D79F /* AppDelegate.h */,
+				A17436A51BA951370011D79F /* AppDelegate.m */,
+				A174369D1BA951370011D79F /* FlipCards-Info.plist */,
+				A174369E1BA951370011D79F /* InfoPlist.strings */,
+				A17436A11BA951370011D79F /* main.m */,
+				A17436A31BA951370011D79F /* FlipCards-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A17436BA1BA951370011D79F /* FlipCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17436C01BA951370011D79F /* FlipCardsTests.m */,
+				A17436BB1BA951370011D79F /* Supporting Files */,
+			);
+			path = FlipCardsTests;
+			sourceTree = "<group>";
+		};
+		A17436BB1BA951370011D79F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A17436BC1BA951370011D79F /* FlipCardsTests-Info.plist */,
+				A17436BD1BA951370011D79F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17436911BA951370011D79F /* FlipCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17436C41BA951370011D79F /* Build configuration list for PBXNativeTarget "FlipCards" */;
+			buildPhases = (
+				A174368E1BA951370011D79F /* Sources */,
+				A174368F1BA951370011D79F /* Frameworks */,
+				A17436901BA951370011D79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipCards;
+			productName = FlipCards;
+			productReference = A17436921BA951370011D79F /* FlipCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17436B21BA951370011D79F /* FlipCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17436C71BA951370011D79F /* Build configuration list for PBXNativeTarget "FlipCardsTests" */;
+			buildPhases = (
+				A17436AF1BA951370011D79F /* Sources */,
+				A17436B01BA951370011D79F /* Frameworks */,
+				A17436B11BA951370011D79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17436B91BA951370011D79F /* PBXTargetDependency */,
+			);
+			name = FlipCardsTests;
+			productName = FlipCardsTests;
+			productReference = A17436B31BA951370011D79F /* FlipCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A174368A1BA951370011D79F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GiovanniCardenas;
+				TargetAttributes = {
+					A17436911BA951370011D79F = {
+						DevelopmentTeam = R79PK3M3WJ;
+					};
+					A17436B21BA951370011D79F = {
+						TestTargetID = A17436911BA951370011D79F;
+					};
+				};
+			};
+			buildConfigurationList = A174368D1BA951370011D79F /* Build configuration list for PBXProject "FlipCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17436891BA951370011D79F;
+			productRefGroup = A17436931BA951370011D79F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17436911BA951370011D79F /* FlipCards */,
+				A17436B21BA951370011D79F /* FlipCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17436901BA951370011D79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17436AE1BA951370011D79F /* Images.xcassets in Resources */,
+				A17436A01BA951370011D79F /* InfoPlist.strings in Resources */,
+				A17436A91BA951370011D79F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17436B11BA951370011D79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17436BF1BA951370011D79F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A174368E1BA951370011D79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D5D7EC1BE1BE4C0099E6FC /* Grid.m in Sources */,
+				A17436D41BA952900011D79F /* PlayingCard.m in Sources */,
+				A17150AD1BD710E50003C82A /* SetCardGameViewController.m in Sources */,
+				A17436D31BA952900011D79F /* Deck.m in Sources */,
+				A16455581BD7075D00AEA6D5 /* PlayingCardViewController.m in Sources */,
+				A17150AA1BD70FB20003C82A /* SetCardDeck.m in Sources */,
+				A17436AC1BA951370011D79F /* ViewController.m in Sources */,
+				A17150A71BD70F840003C82A /* SetCard.m in Sources */,
+				A17436A61BA951370011D79F /* AppDelegate.m in Sources */,
+				A1D5D8101BE1D1410099E6FC /* SetCardView.m in Sources */,
+				A153D0AE1BA9E4C900DCB0C2 /* CardMatchingGame.m in Sources */,
+				A17436D51BA952900011D79F /* PlayingCardDeck.m in Sources */,
+				A1D5D7EF1BE1CCBA0099E6FC /* PlayingCardView.m in Sources */,
+				A17436A21BA951370011D79F /* main.m in Sources */,
+				A17436D21BA952900011D79F /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17436AF1BA951370011D79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17436C11BA951370011D79F /* FlipCardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17436B91BA951370011D79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17436911BA951370011D79F /* FlipCards */;
+			targetProxy = A17436B81BA951370011D79F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A174369E1BA951370011D79F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A174369F1BA951370011D79F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A17436A71BA951370011D79F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17436A81BA951370011D79F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A17436BD1BA951370011D79F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17436BE1BA951370011D79F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17436C21BA951370011D79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A17436C31BA951370011D79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17436C51BA951370011D79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = R79PK3M3WJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipCards/FlipCards-Prefix.pch";
+				INFOPLIST_FILE = "FlipCards/FlipCards-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.lehman.CPM464.instuctor.FlipCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A17436C61BA951370011D79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = R79PK3M3WJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipCards/FlipCards-Prefix.pch";
+				INFOPLIST_FILE = "FlipCards/FlipCards-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.lehman.CPM464.instuctor.FlipCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A17436C81BA951370011D79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipCards.app/FlipCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipCards/FlipCards-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlipCardsTests/FlipCardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A17436C91BA951370011D79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipCards.app/FlipCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipCards/FlipCards-Prefix.pch";
+				INFOPLIST_FILE = "FlipCardsTests/FlipCardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A174368D1BA951370011D79F /* Build configuration list for PBXProject "FlipCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17436C21BA951370011D79F /* Debug */,
+				A17436C31BA951370011D79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17436C41BA951370011D79F /* Build configuration list for PBXNativeTarget "FlipCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17436C51BA951370011D79F /* Debug */,
+				A17436C61BA951370011D79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17436C71BA951370011D79F /* Build configuration list for PBXNativeTarget "FlipCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17436C81BA951370011D79F /* Debug */,
+				A17436C91BA951370011D79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A174368A1BA951370011D79F /* Project object */;
+}
